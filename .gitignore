@@ -1,0 +1,5 @@
+venv
+data/interim/dataset.csv
+data/processed/
+data/raw/Fake.csv
+data/raw/True.csv
