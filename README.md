@@ -1,4 +1,4 @@
-<img width="795" height="400" alt="image_2025-08-30_15-16-58" src="https://github.com/user-attachments/assets/99f715f8-119d-4bd7-8545-a7b87c30624e" />
+<img width="1000" height="600" alt="image_2025-08-30_15-16-58" src="https://github.com/user-attachments/assets/99f715f8-119d-4bd7-8545-a7b87c30624e" />
 
 
 # 📰 Fake News Classification using Classical, Sequential & Transfomer Based Models
@@ -97,6 +97,7 @@ try the streamlit app directly [here](https://shehabmagdy101-fake-news-sentiment
 ### Example 2
 ---
 <img width="1140" height="484" alt="image" src="https://github.com/user-attachments/assets/b6efb9b9-de32-4e95-8771-c997d3b21592" />
+
 
 
 
