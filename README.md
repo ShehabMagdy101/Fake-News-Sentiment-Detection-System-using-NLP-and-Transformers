@@ -49,7 +49,7 @@ This project utilizes classical models such as **SVM**, **Naïve Bayes**, and **
 ## 🚀 Setup Instructions
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/fake-news-sentiment.git
+   git clone https://github.com/ShehabMagdy101/Fake-News-Sentiment-Detection-System-using-NLP-and-Transformers
    cd fake-news-sentiment
    ```
 2. Install dependencies:
@@ -94,6 +94,7 @@ try the streamlit app directly [here](https://shehabmagdy101-fake-news-sentiment
 ### Example 2
 ---
 <img width="1140" height="484" alt="image" src="https://github.com/user-attachments/assets/b6efb9b9-de32-4e95-8771-c997d3b21592" />
+
 
 
 
