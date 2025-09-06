@@ -2,13 +2,20 @@ import streamlit as st
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
-# Load model
-model_path = '../models/distilbert-fake-news'
+# Hugging Face model repo
+model_path = "Shehab03/distilbert-finetuned-on-fake-true-news-for-classification"
+
 
 @st.cache_resource  # cache so it doesn’t reload every time
 def load_model():
-    model = AutoModelForSequenceClassification.from_pretrained(model_path)
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    model = AutoModelForSequenceClassification.from_pretrained(
+        model_path,
+        subfolder="distilbert-fake-news"  # 👈 tell HF to look in the subfolder
+    )
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_path,
+        subfolder="distilbert-fake-news"
+    )
     return model, tokenizer
 
 model, tokenizer = load_model()
@@ -27,4 +34,3 @@ if st.button("Predict"):
         st.write("Prediction:", ":red[Fake]")
     else:
         st.write("Prediction:", ":green[Real]")
-
