@@ -81,6 +81,10 @@ This project utilizes classical models such as **SVM**, **Naïve Bayes**, and **
 
 ## 🌍 Deployment
 
+try the streamlit app directly [here](https://shehabmagdy101-fake-news-sentiment-detection-syst-srcapp-zhoi0t.streamlit.app)
+
+<br>
+
 <img width="1082" height="454" alt="image" src="https://github.com/user-attachments/assets/0d3cf7cd-5868-4fec-a825-d8852d779bfd" />
 
 ### Example 1
@@ -90,5 +94,6 @@ This project utilizes classical models such as **SVM**, **Naïve Bayes**, and **
 ### Example 2
 ---
 <img width="1140" height="484" alt="image" src="https://github.com/user-attachments/assets/b6efb9b9-de32-4e95-8771-c997d3b21592" />
+
 
 
